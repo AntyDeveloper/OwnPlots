@@ -1,4 +1,4 @@
-plugin-prefix: "&f&lOwn&9&lPlots &8»"
+plugin-prefix: "&f&lS&9&lPlots &8»"
 
 cancel-text: "ANULUJ"
 confirm-text: "POTWIERDZ"
@@ -20,6 +20,7 @@ help-plot-upgrades: "&e/dzialka ulepszenia &7- wyswietla ulepszenia dzialki"
 help-plot-border: "&e/dzialka border &7- wyswietla lub wylacza border dzialki na ktorej sie znajdujesz"
 help-plot-info: "&e/dzialka info &7- wyswietla informacje o dzialce na ktorej sie znajdujesz"
 help-plot-help: "&e/dzialka pomoc &7- wyswietla pomocne komendy"
+help-plot-authors: "&e/dzialka autorzy &7 - wyswietla autorów"
 
 # ADMIN HELP MESSAGES
 help-plot-admin-text: "&c&lKomendy dla admina:"

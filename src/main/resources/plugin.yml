@@ -1,9 +1,9 @@
-name: OwnPlots
-main: eu.owncraft.plots.OwnPlots
-author: Symi
+name: SPlots
+main: eu.starify.plots.SPlots
+author: AspDev, Rigolleto
 version: 1.2.0
 api-version: 1.18
-website: https://owncraft.eu
+website:
 description: This plugin allows players to create plots on survival world
 depend:
   - Vault
@@ -13,7 +13,7 @@ softdepend:
 
 commands:
   dzialka:
-    aliases: [ownplot,ownplots,dzialki,d]
+    aliases: [plot,dzialki,d]
     description: Plots command
   challenge:
     aliases: [wyzwania,challenges]
@@ -23,11 +23,17 @@ commands:
 
 permissions:
   ownplots.bypass:
+    children:
+      - splots.bypass
     description: With this permission you can build on other plots
     default: op
   ownplots.admin:
+    children:
+      - splots.admin
     description: Permission for admins
     default: op
   ownplots.fly.bypass:
+    children:
+      - splots.fly.bypass
     description: Bypass fly limit
     default: op
